@@ -603,6 +603,7 @@ nav a.flagNav{
 
 .featuredSpeakers ul{
 	margin-top: 20px;
+	padding: 0;
 }
 
 .featuredSpeakers ul li{
@@ -796,6 +797,10 @@ blockquote p:after {
 
 body.speakers a.speakerLink{
 	margin-bottom: 10px;
+}
+
+.speakers #content ul{
+	padding: 0;
 }
 
 .video_wrapper {
