@@ -387,7 +387,8 @@ footer h2{
 }
 
 footer ul{
-	margin: 0;	
+	margin: 0;
+	padding: 0;
 }
 
 footer .navigation ul li a, footer .social ul li a{
@@ -753,6 +754,10 @@ p.wp-caption-text{
 	padding: 0;
 }
 
+ul.committeeRow, ul.sponsorRow{
+	padding: 0;
+}
+
 .news .attachment-post-thumbnail, .archive .attachment-post-thumbnail{
 	float: left;
 	margin-top: 5px;
@@ -762,9 +767,6 @@ p.wp-caption-text{
 .ted-video-picks a.readMore{
 	display: block;
 	padding-bottom: 24px;
-}
-
-blockquote{
 }
 
 blockquote p{

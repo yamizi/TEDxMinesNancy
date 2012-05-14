@@ -3,14 +3,8 @@
 				<section class="flexslider row">
 					<ul class="slides">
 						<li>
-							<a href="/speakers/moeed-ahmad/" title="Featured Speaker: Moeed Ahmad - Director of Digital, Al Jazeera"><img src="/assets/homepage_featuredSpeaker_moeed.jpg" alt="Featured Speaker: Moeed Ahmad - Director of Digital, Al Jazeera" width="940" height="446" /></a>
-						</li>
-						<li>
-							<img src="/assets/homepage_applicationsClosed.jpg" alt="Applications are now closed." width="940" height="446" />
-						</li>
-						<li>
-							<a href="/speakers/raffi-cavoukian/" title="Featured Speaker: Raffi Cavoukian - Songwriter and Children's Rights Advocate"><img src="/assets/homepage_featuredSpeaker_raffi.jpg" alt="Featured Speaker: affi Cavoukian - Songwriter and Children's Rights Advocate" width="940" height="446" /></a>
-						</li>					
+							<a href="/event-details" title="Watch the livestream on may 25th"><img src="/assets/homepage_livestream.jpg" alt="Watch the livestream on may 25th" width="940" height="446" /></a>
+						</li>				
 					</ul>
 				</section>
 				

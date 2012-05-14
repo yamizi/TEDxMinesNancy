@@ -22,7 +22,7 @@ Template Name: Page w/ Sponsors
 		<?php $i = 0; ?>
 		<?php while ($details_query->have_posts()) : $details_query->the_post(); ?>
 		<?php if ($i%3 == 0 && $i != 0) { echo '</ul>'; } ?>
-		<?php if ($i%3 == 0) { echo '<ul class="row clearfix">'; } ?>
+		<?php if ($i%3 == 0) { echo '<ul class="row clearfix sponsorRow">'; } ?>
 			<li class="four columns">
 				<a href="<?php echo get_post_meta($post->ID, '_tedxyyc_sponsor_url_value', true) ?>" target="_blank" title="<?php the_title(); ?>" class="sponsorLink">
 					<?php the_post_thumbnail('sponsor_logo', array(
