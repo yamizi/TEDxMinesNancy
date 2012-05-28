@@ -32,7 +32,7 @@ small { font-size: 85%; }
 sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
 sup { top: -0.5em; }
 sub { bottom: -0.25em; }
-ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+ul, ol { margin: 1em 0; padding: 0; list-style-position:inside; }
 dd { margin: 0 0 0 40px; }
 nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
@@ -130,10 +130,6 @@ nav{
 	padding: 0;
 }
 
-#content aside ul,#content aside ol{
-	padding: 0;
-}
-
 .single-speakers #content aside{
 	border: none;
 }
@@ -173,7 +169,6 @@ body[class*="speaker"] #content aside #speakerImgWrapper{
 
 #footerWrap footer{
 	padding: 0 30px 0 210px;
-	text-shadow: none;
 	margin: 0;
 	width: auto;
 }
@@ -189,7 +184,6 @@ body{
 	font-weight: 300;
 	line-height: 24px;
 	color: #393939;
-	text-shadow: 0px 1px 0px #fff;
 }
 
 h1, h2, h3, h4, h5, h6, p, li{
@@ -213,7 +207,7 @@ h3{
 
 ul, ol {
 	margin: 0;
-	padding: 0 0 24px 40px;
+	padding: 0 0 24px 0;
 }
 
 ul{
@@ -386,11 +380,6 @@ footer h2{
 	box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.34);
 }
 
-footer ul{
-	margin: 0;
-	padding: 0;
-}
-
 footer .navigation ul li a, footer .social ul li a{
 	color: #585858;
 }
@@ -454,7 +443,6 @@ a.mobileNav_btn{
 	line-height: 40px;
 	vertical-align: middle;
 	font-weight: bold;
-	text-shadow: none;
 	text-transform: uppercase;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -479,7 +467,6 @@ nav ul{
 	font-size: 18px;
 	line-height: 45px;
 	font-weight: bold;
-	padding-right: 0
 }
 
 nav ul li{
@@ -657,7 +644,6 @@ a.speakerLink h3{
 	font-weight: normal;
 	line-height: 40px;
 	vertical-align: middle;
-	text-shadow: none;
 	opacity: 0;
 	filter:alpha(opacity=0);
 	-webkit-transition: opacity 0.5s ease;
@@ -754,10 +740,6 @@ p.wp-caption-text{
 	padding: 0;
 }
 
-ul.committeeRow, ul.sponsorRow{
-	padding: 0;
-}
-
 .news .attachment-post-thumbnail, .archive .attachment-post-thumbnail{
 	float: left;
 	margin-top: 5px;
@@ -799,10 +781,6 @@ blockquote p:after {
 
 body.speakers a.speakerLink{
 	margin-bottom: 10px;
-}
-
-.speakers #content ul{
-	padding: 0;
 }
 
 .video_wrapper {

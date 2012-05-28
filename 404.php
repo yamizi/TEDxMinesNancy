@@ -1,13 +1,7 @@
 <?php get_header(); ?>
 
-          <h1><?php _e('File Not Found', 'roots'); ?></h1>
-          <p><?php _e('The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.', 'roots'); ?></p>
-          <p><?php _e('Please try the following:', 'roots'); ?></p>
-          <ul>
-            <li><?php _e('Check your spelling', 'roots'); ?></li>
-            <li><?php printf(__('Return to the <a href="%s">home page</a>', 'roots'), home_url()); ?></li>
-            <li><?php _e('Click the <a href="javascript:history.back()">Back</a> button', 'roots'); ?></li>
-          </ul>
+          <h1><?php _e('Whoops!', 'roots'); ?></h1>
+          <p><?php _e('It looks like we cant find what you were looking for. Try searching below or using the main navigation. ', 'roots'); ?></p>
           <?php get_search_form(); ?>
 
 <?php get_footer(); ?>
