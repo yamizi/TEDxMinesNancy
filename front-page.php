@@ -23,7 +23,7 @@
 			  				'post_type' => 'speakers',
 			  				'taxonomy' => 'tedxyycYear',
 			  				'term' => '2012',
-			  				'posts_per_page' => 9,
+			  				'posts_per_page' => -1,
 			  				'orderby' => 'title',
 			  				'order' => 'ASC'
 							);
@@ -31,24 +31,19 @@
 					?>
 
 					<?php /* Start loop */ ?>
-					<?php $i = 0; ?>
+					<ul class="row clearfix">
 					<?php while (have_posts()) : the_post(); ?>
-					<?php if ($i%3 == 0 && $i != 0) { echo '</ul>'; } ?>
-					<?php if ($i%3 == 0) { echo '<ul class="row clearfix">'; } ?>
 						<li class="four columns">
 							<a href="<?php the_permalink(); ?>" class="speakerLink">
-								<h3><?php the_title(); ?></h3>
 								<?php the_post_thumbnail('wide_thumb', array(
 									'alt' => ''.get_the_title().'',
 									'title' => ''.get_the_title().'' 
 								)); ?>
+								<h3><?php the_title(); ?></h3>
 							</a>
 						</li>
-					<?php
-						$i++;
-						endwhile; // End the loop
-						echo '</ul>';
-   					?>
+					<?php endwhile; // End the loop ?>
+					</ul>
 					<?php wp_reset_query(); ?>
 					
 					<a href="/speakers" class="sectionCTA row">view all the <span class="tedx">TEDx</span><span class="yyc">YYC</span> speakers</a>

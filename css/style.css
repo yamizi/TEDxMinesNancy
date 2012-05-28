@@ -596,6 +596,13 @@ nav a.flagNav{
 
 .featuredSpeakers ul li{
 	position: relative;
+	margin-left: 0;
+	margin-right: 4.4%;
+	margin-bottom: 20px;
+}
+
+.featuredSpeakers ul li:nth-child(3n){
+	margin-right: 0;
 }
 
 a.speakerLink{
@@ -1139,20 +1146,8 @@ body.speakers a.speakerLink{
 		margin: 0;
 	}
 	
-	.featuredSpeakers ul li + li + li{
-		display: none;
-	}
-	
-	.recentNews article + article + article{
-		display: none;	
-	}
-	
 	.videoPicks a{
 		text-align: center;
-	}
-	
-	.videoPicks a + a{
-		display: none;
 	}
 	
 	ul.row{
@@ -1373,45 +1368,32 @@ body.speakers a.speakerLink{
 		width: 31px;
 	}
 	
-	.featuredSpeakers{
-		text-align: center;
-	}
-	
 	.videoPicks a.videoPick{
 		width: 100% !important;
 		margin: 0 auto;
 	}
 	
-	.featuredSpeakers div.columns {
-		min-width: 100%;
-		max-width: 100%;
-		width: 100%;
-		margin: 0;
+	.featuredSpeakers .four{
+		min-width: 47.8%;
+		max-width: 47.8%;
+		width: 47.8%;
+		float: left;
 	}
 	
-	.featuredSpeakers ul li + li + li{
-		display: none;
+	.featuredSpeakers ul li:nth-child(3n){
+		margin-right: 4.4%;
 	}
 	
-	.featuredSpeakers ul li + li{
-		margin-top: 20px;
+	.featuredSpeakers ul li:nth-child(2n+2){
+		margin-right: 0;
 	}
 	
-	a.speakerLink{
-		width: 300px;
-		margin: 0 auto;
-	}
-	
-	.recentNews article + article + article{
-		display: none;	
-	}
-	
-	.videoPicks a + a{
-		display: none;
-	}
-	
-	.speakers ul.row{
-		text-align: center;
+	.featuredSpeakers ul li a h3{
+		position: relative;
+		left: 0;
+		top: 0;
+		color: #fff;
+		line-height: 40px;
 	}
 	
 	.video_wrapper{
