@@ -1,3 +1,5 @@
+Please note: This theme is no longer supported.
+
 # [TEDxYYC Wordpress Theme](http://tedxyyc.com/)
 
 The TEDxYYC Wordpress Theme is a starting WordPress theme made for TEDx organizers that’s based on the [Roots Wordpress Theme](http://www.rootstheme.com/), [HTML5 Boilerplate](http://html5boilerplate.com/), Starkers, and one of the best CSS frameworks, [Foundation](http://foundation.zurb.com/).
